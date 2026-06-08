@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Gyron Automations — Servicios de inteligencia artificial para empresas B2B. Diagnóstico, automatización de procesos y soluciones de IA a medida.">
+  <meta property="og:title" content="Gyron Automations — IA para empresas">
+  <meta property="og:description" content="Analizamos tu empresa e implementamos soluciones de IA que generan impacto real desde el primer día.">
+  <meta property="og:type" content="website">
+  <title>Gyron Automations — IA para empresas</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Inter:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Saltar al contenido (accesibilidad) -->
+  <a href="#main" class="skip-link">Saltar al contenido</a>
+
+  <!-- Cursor personalizado (solo desktop) -->
+  <div class="cursor" data-cursor-root aria-hidden="true">
+    <span class="cursor-dot"></span>
+  </div>
+
+  <!-- Barra de progreso de scroll -->
+  <div class="scroll-progress" aria-hidden="true">
+    <span data-scroll-progress></span>
+  </div>
+
+  <!-- ================================================================
+       NAVBAR
+       ================================================================ -->
+  <nav class="nav" id="nav" aria-label="Navegación principal">
+    <div class="container nav-inner">
+
+      <!-- Logo -->
+      <a href="#inicio" class="nav-logo" aria-label="Gyron Automations — Inicio">
+        <img src="assets/img/logo.webp" alt="Gyron Automations" class="logo-img" width="160" height="40" loading="eager">
+      </a>
+
+      <!-- Links de escritorio -->
+      <ul class="nav-links" role="list">
+        <li><a href="#inicio"    class="nav-link">Home</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#contacto"  class="nav-link nav-cta">Contacto</a></li>
+      </ul>
+
+      <!-- Botón hamburguesa (mobile) -->
+      <button class="hamburger" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-mobile">
+        <span class="ham-line ham-top"></span>
+        <span class="ham-line ham-bot"></span>
+      </button>
+
+    </div>
+  </nav>
+
+  <!-- Menú móvil pantalla completa -->
+  <div class="nav-mobile" id="nav-mobile" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Menú de navegación">
+    <button class="mobile-close" aria-label="Cerrar menú">
+      <span></span><span></span>
+    </button>
+    <nav aria-label="Menú móvil">
+      <ul role="list" class="mobile-list">
+        <li><a href="#inicio"    class="mobile-link">Home</a></li>
+        <li><a href="#servicios" class="mobile-link">Servicios</a></li>
+        <li><a href="#contacto"  class="mobile-link">Contacto</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- ================================================================
+       CONTENIDO PRINCIPAL
+       ================================================================ -->
+  <main id="main">
+
+    <!-- ============================================================
+         SECCIÓN 1 — HERO
+         ============================================================ -->
+    <section class="hero" id="inicio">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow" data-reveal>Servicios de IA para empresas</p>
+
+        <h1 class="hero-title" data-split="words">
+          Tu negocio ya puede funcionar con IA.
+        </h1>
+
+        <p class="hero-sub" data-reveal>
+          Nosotros te decimos <em>cómo</em>.
+        </p>
+
+        <p class="hero-body" data-reveal>
+          Analizamos tu empresa, identificamos las oportunidades reales de automatización
+          y construimos las soluciones que necesitas. Sin promesas vacías.
+        </p>
+
+        <div class="hero-actions" data-reveal>
+          <a href="#diagnostico" class="btn btn-dark">Ver el Diagnóstico</a>
+          <a href="#contacto"    class="btn btn-outline">Contactar &rarr;</a>
+        </div>
+      </div>
+
+      <!-- Indicador de scroll -->
+      <div class="scroll-hint" aria-hidden="true">
+        <span class="scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECCIÓN 2 — DESCRIPCIÓN
+         ============================================================ -->
+    <section class="descripcion" id="descripcion">
+      <div class="container">
+        <div class="desc-grid">
+
+          <div class="desc-left">
+            <h2 class="desc-heading" data-split="words">
+              Primero analizamos.<br>Luego creamos.
+            </h2>
+          </div>
+
+          <div class="desc-right">
+            <p data-reveal>
+              No implementamos tecnología por implementarla. Cada proyecto comienza con un
+              análisis riguroso: entendemos tus procesos, tus retos y dónde la IA puede
+              crear valor real en tu empresa.
+            </p>
+            <p data-reveal>
+              Solo después construimos. El resultado son soluciones que encajan en tu
+              operativa, tu equipo y tus objetivos de negocio.
+            </p>
+
+            <div class="desc-stats" data-reveal>
+              <div class="stat">
+                <div class="stat-value">
+                  <span class="stat-num" data-count-to="48">48</span>
+                  <span class="stat-unit">h</span>
+                </div>
+                <span class="stat-label">entrega del diagnóstico</span>
+              </div>
+              <div class="stat">
+                <div class="stat-value">
+                  <span class="stat-num" data-count-to="4">4</span>
+                </div>
+                <span class="stat-label">áreas auditadas</span>
+              </div>
+              <div class="stat">
+                <div class="stat-value">
+                  <span class="stat-num" data-count-to="1">1</span>
+                </div>
+                <span class="stat-label">reunión 1 a 1 incluida</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECCIÓN 3 — DIAGNÓSTICO (oscuro)
+         ============================================================ -->
+    <section class="diagnostico" id="diagnostico">
+      <div class="container">
+
+        <div class="diag-header" data-reveal>
+          <p class="eyebrow eyebrow-light">El primer paso</p>
+          <h2 class="diag-title">El Diagnóstico</h2>
+          <p class="diag-price">€400</p>
+        </div>
+
+        <div class="diag-grid">
+
+          <div class="diag-card" data-reveal>
+            <span class="diag-num">01</span>
+            <div>
+              <h3>Auditoría de las 4 áreas</h3>
+              <p>Análisis con matriz de impacto cruzado que identifica con precisión dónde la IA genera más valor en tu empresa.</p>
+            </div>
+          </div>
+
+          <div class="diag-card" data-reveal>
+            <span class="diag-num">02</span>
+            <div>
+              <h3>Oportunidades de IA</h3>
+              <p>Mapeamos las oportunidades concretas de implementación adaptadas a tu empresa, tu sector y tu equipo.</p>
+            </div>
+          </div>
+
+          <div class="diag-card" data-reveal>
+            <span class="diag-num">03</span>
+            <div>
+              <h3>Vulnerabilidades de ciberseguridad</h3>
+              <p>Identificamos los riesgos de seguridad actuales antes de integrar nuevas tecnologías en tu operativa.</p>
+            </div>
+          </div>
+
+          <div class="diag-card" data-reveal>
+            <span class="diag-num">04</span>
+            <div>
+              <h3>Roadmap de implementación</h3>
+              <p>Un plan claro, priorizado y accionable para implementar IA en tu empresa paso a paso.</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="diag-footer" data-reveal>
+          <div class="diag-deliverable">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 11l3 3L22 4"/>
+              <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+            </svg>
+            <span>Entregable completo + reunión 1&nbsp;a&nbsp;1 incluida</span>
+          </div>
+          <p class="diag-note">
+            Al contratar el diagnóstico no te comprometes a adquirir ningún servicio.
+          </p>
+          <a href="#contacto" class="btn btn-cyan">Solicitar el Diagnóstico</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECCIÓN 4 — SERVICIOS
+         ============================================================ -->
+    <section class="servicios" id="servicios">
+      <div class="container">
+
+        <div class="serv-header" data-reveal>
+          <h2 data-split="words">¿Qué podemos construir para tu empresa?</h2>
+          <p>Cada implementación es a medida. El precio depende del alcance del proyecto.</p>
+        </div>
+
+        <div class="serv-grid">
+
+          <!-- Automatización -->
+          <article class="card" data-reveal>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/>
+                <path d="M12 2v2m0 16v2M2 12h2m16 0h2"/>
+              </svg>
+            </div>
+            <h3>Automatización de procesos</h3>
+            <p>Elimina las tareas repetitivas de tu equipo con flujos de trabajo inteligentes y automatizados.</p>
+          </article>
+
+          <!-- Embudos -->
+          <article class="card" data-reveal>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 3H2l8 9.46V19l4 2v-8.54L22 3z"/>
+              </svg>
+            </div>
+            <h3>Embudos de ventas</h3>
+            <p>Automatiza tu pipeline comercial: captación, seguimiento y cierre sin fricción manual.</p>
+          </article>
+
+          <!-- CRM -->
+          <article class="card" data-reveal>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/>
+                <circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75"/>
+              </svg>
+            </div>
+            <h3>CRM inteligente</h3>
+            <p>Gestiona tus clientes con un sistema que aprende, prioriza y actúa por ti de forma autónoma.</p>
+          </article>
+
+          <!-- Chatbots -->
+          <article class="card" data-reveal>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/>
+              </svg>
+            </div>
+            <h3>Chatbots y asistentes</h3>
+            <p>Asistentes virtuales que atienden a tus clientes 24/7 con respuestas precisas y contextuales.</p>
+          </article>
+
+          <!-- Open card -->
+          <article class="card card--open" data-reveal>
+            <div class="card-icon" aria-hidden="true">
+              <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 5v14M5 12h14"/>
+              </svg>
+            </div>
+            <h3>Y mucho más&hellip;</h3>
+            <p>Si puedes imaginarlo, probablemente podemos construirlo. Cuéntanos tu reto.</p>
+            <a href="#contacto" class="btn btn-sm btn-dark">Hablemos</a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         SECCIÓN 5 — CONTACTO (oscuro)
+         ============================================================ -->
+    <section class="contacto" id="contacto">
+      <div class="container">
+
+        <div class="contact-header" data-reveal>
+          <h2>Cuéntanos cómo podemos ayudarte.</h2>
+          <p>Responderemos en menos de 24&nbsp;horas.</p>
+        </div>
+
+        <div class="contact-wrapper">
+
+          <form class="contact-form" data-contact-form novalidate>
+
+            <div class="form-row">
+              <div class="field">
+                <input type="text"  name="name"    id="f-name"    placeholder=" " required autocomplete="given-name">
+                <label for="f-name">Nombre</label>
+              </div>
+              <div class="field">
+                <input type="email" name="email"   id="f-email"   placeholder=" " required autocomplete="email">
+                <label for="f-email">Email</label>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="field">
+                <input type="tel"   name="phone"   id="f-phone"   placeholder=" " autocomplete="tel">
+                <label for="f-phone">Teléfono</label>
+              </div>
+              <div class="field">
+                <input type="text"  name="company" id="f-company" placeholder=" " required>
+                <label for="f-company">Empresa</label>
+              </div>
+            </div>
+
+            <div class="form-row form-row--single">
+              <div class="field">
+                <input type="text" name="role" id="f-role" placeholder=" ">
+                <label for="f-role">Cargo</label>
+              </div>
+            </div>
+
+            <div class="form-row form-row--single">
+              <div class="field field--textarea">
+                <textarea name="message" id="f-message" placeholder=" " required rows="5"></textarea>
+                <label for="f-message">¿Cómo podemos ayudarte?</label>
+              </div>
+            </div>
+
+            <button type="submit" class="btn btn-cyan btn-submit">
+              <span class="btn-label">Enviar mensaje</span>
+              <span class="btn-spinner" aria-hidden="true"></span>
+            </button>
+
+          </form>
+
+          <!-- Mensaje de éxito -->
+          <div class="contact-success" data-contact-success aria-hidden="true" aria-live="polite">
+            <div class="success-icon" aria-hidden="true">
+              <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"/>
+                <path d="M22 4L12 14.01l-3-3"/>
+              </svg>
+            </div>
+            <h3>Mensaje recibido.</h3>
+            <p data-contact-success-msg></p>
+            <p class="success-sub">Te escribimos en menos de 24 horas.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================================================================
+       FOOTER
+       ================================================================ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <img src="assets/img/logo.webp" alt="Gyron Automations" class="footer-logo" width="120" height="30" loading="lazy">
+      <nav class="footer-nav" aria-label="Navegación del pie de página">
+        <a href="#inicio">Home</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <p class="footer-copy">&copy; 2025 Gyron Automations. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- EmailJS SDK (conecta tu Gmail en emailjs.com) -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js" defer></script>
+
+  <!-- Librerías de animación (locales, sin CDN) -->
+  <script defer src="lib/gsap.min.js"></script>
+  <script defer src="lib/ScrollTrigger.min.js"></script>
+
+  <!-- Datos de marca -->
+  <script defer src="lib/manifest.js"></script>
+
+  <!-- Lógica principal (bumpa ?v= en cada deploy) -->
+  <script defer src="main.js?v=20260606"></script>
+
+</body>
+</html>
