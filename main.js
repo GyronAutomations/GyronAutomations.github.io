@@ -22,9 +22,9 @@
   /* 2. Conecta tu Gmail como servicio                          */
   /* 3. Crea una plantilla de email                             */
   /* 4. Copia los tres IDs y pégalos abajo                      */
-  var EJS_SERVICE_ID  = "service_nqaqakf";   /* ← reemplaza */
-  var EJS_TEMPLATE_ID = "template_4a01wco";  /* ← reemplaza */
-  var EJS_PUBLIC_KEY  = "PfKXJunC3aMUxj_K5";   /* ← reemplaza */
+  var EJS_SERVICE_ID  = "service_q64z1m9";   /* ← reemplaza */
+  var EJS_TEMPLATE_ID = "template_f1wyqlg";  /* ← reemplaza */
+  var EJS_PUBLIC_KEY  = "dx_ZeYywsghqnvZAb";   /* ← reemplaza */
 
   /* ── 1. Navbar sticky ────────────────────────────────────── */
   function initNav() {
